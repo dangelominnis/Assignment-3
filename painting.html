@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="painting.css">
+
+    <!-- linking to the jquery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    
+    <!-- calling on the jquery draggable function -->
+    <script>
+    $( function() {
+        $( ".box" ).draggable();
+        $( ".triangle1" ).draggable({ revert: true });
+        $( ".box1" ).resizable();
+    } );
+    </script>
+</head>
+<body>
+
+    <section class="painting">
+        <!-- Triangle 1 -->
+        <div class="triangle1"></div>
+
+        <!-- Triangle 2 -->
+        <div class="triangle2"></div>
+
+        <!-- Triangle 3 -->
+        <div class="triangle3"></div>
+
+        <!-- Triangle 4 -->
+        <div class="triangle4"></div>
+
+        <!-- Triangle 5 -->
+        <div class="triangle5"></div>
+
+        <!-- Triangle 6 -->
+        <div class="triangle6"></div>
+
+        <!-- Triangle 7 -->
+        <div class="triangle7"></div>
+
+        <!-- Triangle 8 -->
+        <div class="triangle8"></div>
+    </section>
+    
+</body>
+</html>
